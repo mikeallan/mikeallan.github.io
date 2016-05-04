@@ -18,6 +18,23 @@
 	<link href="../font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
 	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+
+	<!-- jQuery -->
+  <script src="js/jquery.js"></script>
+
+	<script>
+		var height1 = $(".left_box_inside_right").height();
+		var height2 = $(".right_box_inside_right").height();
+		if(height1 > height2){
+			$(".left_box").height(height1);
+    	$(".right_box_inside_right").height(height1);
+  	}
+		else{
+    	$(".left_box_inside_right").height(height2);
+  		$(".left_box").height(height2);
+  	}
+  </script>
 
 </head>
 
@@ -71,7 +88,7 @@
 		<div class="speech_box">
 			<h1 id="resume_category">Education</h1>
 		</div>
-		<div class="triangle-down"></div>
+		<p class="triangle-down"></p>
 
 		<div class="left_box_inside_right">
 				<h2 id="resume_item"><strong>Western University</strong>, London, Ontario</h2>
@@ -89,12 +106,14 @@
 				<p id="year">2018</p>
 			</div>
 
-			<br><br><br><br><br><br><br>
+			<div class="clearfix"></div>
+
+			
 		<div class="speech_box">
 
 			<h1 id="resume_category">Experience</h1>
 		</div>
-		<div class="triangle-down"></div>
+		<p class="triangle-down"></p>
 		
 		<div class="left_box_inside_right">
 			<h2 id="resume_item"><strong>FairServices</strong>, Cusco, Peru</h2>
@@ -125,49 +144,50 @@
 			<br><br><br><br><br><p id="year">2014-2016</p>
 		</div>
 
-		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		<div class="clearfix"></div>
+		
 		<div class="speech_box">
 			<h1 id="resume_category">Activities & Interests</h1>
 		</div>
-		<div class="triangle-down"></div>
+		<p class="triangle-down"></p>
+
 
 		<div class="left_box_inside_right">
-				<ul id="resume_list">
-					<br>
-					<li>Western University Rubik's Cube Club: <span style="font-weight: normal; color: #2d2d2d">VP Finance</span></li>
-					<li>Programming: <span style="font-weight: normal; color: #2d2d2d">Proficient with C++ and Arduino, experience with Web Development</span></li>
-					<li>Western Enginering Outreach <span style="font-weight: normal; color: #2d2d2d">Panelist, Tour Guide, and Mentor</span></li>
-					<li>Intramural Sports <span style="font-weight: normal; color: #2d2d2d"> Captain of champion Ultimate Frisbee, Volleyball, and Inner Tube Water Polo teams, <br>member of Basketball team</span></li>
-					<li>Music: <span style="font-weight: normal; color: #2d2d2d">Avid guitarist and choir singer, lead fundraiser for High School Choir</span></li>
-					<li>Engineers Without Borders Western: <span style="font-weight: normal; color: #2d2d2d">VP Fair Trade and Food Systems</span></li>
-					<li>Clubs at Ivey: <span style="font-weight: normal; color: #2d2d2d">Technology Club Section Rep, Entrepreneurship Club member</span></li>
-					<li>Organized Sports: <span style="font-weight: normal; color: #2d2d2d">Captain & MVP of Team Newfoundland Volleyball</span></li>
-					<li>Languages: <span style="font-weight: normal; color: #2d2d2d">Working proficiency in Spanish, limited proficiency in French</span></li>
-				</ul>
+			<ul id="resume_list">
+				<br>
+				<li>Western University Rubik's Cube Club: <span style="font-weight: normal; color: #2d2d2d">VP Finance</span></li>
+				<li>Programming: <span style="font-weight: normal; color: #2d2d2d">Proficient with C++ and Arduino, experience with Web Development</span></li>
+				<li>Western Enginering Outreach <span style="font-weight: normal; color: #2d2d2d">Panelist, Tour Guide, and Mentor</span></li>
+				<li>Intramural Sports <span style="font-weight: normal; color: #2d2d2d"> Captain of champion Ultimate Frisbee, Volleyball, and Inner Tube Water Polo teams, <br>member of Basketball team</span></li>
+				<li>Music: <span style="font-weight: normal; color: #2d2d2d">Avid guitarist and choir singer, lead fundraiser for High School Choir</span></li>
+				<li>Engineers Without Borders Western: <span style="font-weight: normal; color: #2d2d2d">VP Fair Trade and Food Systems</span></li>
+				<li>Clubs at Ivey: <span style="font-weight: normal; color: #2d2d2d">Technology Club Section Rep, Entrepreneurship Club member</span></li>
+				<li>Organized Sports: <span style="font-weight: normal; color: #2d2d2d">Captain & MVP of Team Newfoundland Volleyball</span></li>
+				<li>Languages: <span style="font-weight: normal; color: #2d2d2d">Working proficiency in Spanish, limited proficiency in French</span></li>
+			</ul>
 
-			</div>
+		</div>
 
-			<div class="right_box_inside_right">
-				<ul id="year_club_list">
-					<br>
-					<li>2016-Present</li>
-					<li>2013-Present</li>
-					<li>2013-Present</li>
-					<li>2013-Present</li>
-					<br>
-					<li>2004-Present</li>
-					<li>2013-2016</li>
-					<li>2015-2016</li>
-					<li>2011-2013</li>
-				</ul>
-			</div>
-
+		<div class="right_box_inside_right">
+			<ul id="year_club_list">
+				<br>
+				<li>2016-Present</li>
+				<li>2013-Present</li>
+				<li>2013-Present</li>
+				<li>2013-Present</li>
+				<br>
+				<li>2004-Present</li>
+				<li>2013-2016</li>
+				<li>2015-2016</li>
+				<li>2011-2013</li>
+			</ul>
+		</div>	
 	</div>
 
 	<!-- Footer -->
 
-	<div id="footer">
-		<ul id="footer_list">
+	<div class="footer">
+		<ul id="resume_footer_list">
 			<li>260 Suffolk Place &#8226; </li>
 			<li>London, Ontario &#8226; </li>
 			<li> N6G 4S3 </li> 
