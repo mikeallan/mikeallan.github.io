@@ -77,16 +77,85 @@
                 <hr class="intro-divider">
         </div>
 
+<!---------- Third Post ------------>
+
+
+    <div class="col-blog-1">
+        <div class="clearfix"></div>
+        <h3 style="margin-left: 15%; margin-right: 15%">Pequeño Viaje</h3>
+        <h5 style="margin-left: 15%; margin-right: 15%"><i>June 22nd, 2015</i></h5>
+        <br>
+
+        <p>THIRD BLOG POST HERE</p>
+
+        <hr class="intro-divider">
+<?php
+    
+    $name = $_POST["name3"];
+    $text = $_POST["mes3"];
+    $post = $_POST["post3"];
+    
+    
+    if($post){
+        
+        #WRITE DOWN COMMENTS#
+        
+        $write = fopen("com3.txt", "a+");
+        fwrite($write, "<u><i> $name </i></u><br>$text<br>");
+        fclose($write);
+        
+        #DISPLAY COMMENTS#
+        
+        $read = fopen("com3.txt", "r+t");
+        echo "<h4><u><b>All comments:</b></u></h4>";
+        
+        while(!feof($read)){
+            echo fread($read, 1024);
+            
+        }
+        fclose($read);
+    }
+    
+    else{
+        #DISPLAY COMMENTS#
+        
+        $read = fopen("com3.txt", "r+t");
+        echo "<h4><u>All comments:</u></h4>";
+        
+        while(!feof($read)){
+            echo fread($read, 1024);
+        }
+        fclose($read);
+    }
+    ?>
+
+<hr class="intro-divider">
+
+<form action="blog.php" method="post">
+
+<label> Name: <br><input type="text" name="name2"><br>
+<label> Message: <br><textarea cols="45" rows="5" name="mes2"></textarea></label><br>
+
+<input type="submit" name="post2" value="Post">
+
+</form>
+
+<hr class="intro-divider">
+
+
+    </div>
+
 
 <!---------- Second Post ------------>
 
 
     <div class="col-blog-1">
-                <div class="clearfix"></div>
-                <h3 style="margin-left: 15%; margin-right: 15%">Pequeño Viaje</h3>
-                <h5 style="margin-left: 15%; margin-right: 15%"><i>June 22nd, 2015</i></h5>
-                <br>
-                <p style="margin-left: 15%; margin-right: 15%">The past ten days have been wonderful, with a fair share of surprises.<br><br>
+        <div class="clearfix"></div>
+        <h3 style="margin-left: 15%; margin-right: 15%">Pequeño Viaje</h3>
+        <h5 style="margin-left: 15%; margin-right: 15%"><i>June 22nd, 2015</i></h5>
+        <br>
+
+        <p style="margin-left: 15%; margin-right: 15%">The past ten days have been wonderful, with a fair share of surprises.<br><br>
 
             Surprise #1:
                 I went bungee jumping. If you know me well, you’ll know that I have a slight fear of heights. I always think people should go out of their comfort zones, so I went 405 ft straight up out of mine. What an experience that was. The next day, I left for Guayaquil, Ecuador to meet up with a friend from Canada. After two days in Guayaquil, I was planning on continuing my travels to Máncora, Peru.<br><br>
@@ -119,10 +188,12 @@
                 <img class="img-responsive" src="../img/blog_img/view_from_the_top.png" alt="" width="450">
                 <p style="margin-left: 10%">Looking down from the bungee jump platform</p>
             </div>
+
             <div class="col-lg-4 col-lg-offset-0 col-lg-4">
                 <img class="img-responsive" src="../img/blog_img/view_of_guayaquil.jpg" alt="" width="280">
                 <p>The view from a lighthosue in Guayaquil, 440 stairs up</p>
             </div>
+
             <div class="col-lg-7 col-lg-offset-0 col-lg-4">
                 <img class="img-responsive" src="../img/blog_img/mancora_hostel.jpg" alt="" width="160">
                 <p>My hostel in Máncora, picture taken in a hammock</p>
