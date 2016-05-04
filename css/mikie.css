@@ -27,7 +27,7 @@
 #name {
 	text-align: center;
 	color: #ffffff;
-	font-size: 24px;
+	font-size: 48px;
 	font-family: Montserrat, Times, Calibri, Verdana, sans-serif;
 }
 
@@ -73,7 +73,7 @@
 .left_box {
 	position: relative;
 	margin-top: 280px;
-	height: 1010px;
+	height: 980px;
 	margin-left: 2.5%;
 	width: 15%;
 	float: left;
@@ -85,7 +85,7 @@
 .right_box {
 	position: relative;
 	margin-top: 280px;
-	height: 1010px;
+	height: 980px;
 	margin-left: 1.25%;
 	width: 78.75%;
 	float: left;
