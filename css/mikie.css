@@ -41,10 +41,22 @@
 }
 
 #picture {
-	position: relative;
 	border-radius: 100%;
 	height: 200px;
 	width: 200px;
+}
+
+#picture_about {
+	border-radius: 100%;
+	height: 200px;
+	width: 200px;
+	float: right; 
+	margin-right: 25%; 
+	margin-top: 5%
+}
+
+.right_resume_header #picture {
+	position: relative;
 	float: right;
 	margin-right: 50%;
 	margin-top: 10px;
