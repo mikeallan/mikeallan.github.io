@@ -14,7 +14,7 @@
 
 .left_resume_header {
 	position: relative;
-	margin-top: 50px;
+	margin-top: 2.5%;
 	float: left;
 	width: 60%;
 }
@@ -38,6 +38,8 @@
 	font-family: Montserrat, Times, Calibri, Verdana, sans-serif;
 	margin-left: 5%;
 	margin-right: 5%;
+	font-weight: normal;
+
 }
 
 #picture {
@@ -120,7 +122,7 @@
 	width: 0;
 	height: 0;
 	border-left: 20px solid transparent;
-	border-top: 20px solid #34495e;;
+	border-top: 20px solid #34495e;
 }
 
 #resume_category{
@@ -139,6 +141,12 @@
 	width: 82.5%;
 	border-radius: 10px;
 	margin-top: -10px;
+}
+
+.left_box_inside_right a {
+	position: relative;
+	margin-left: 40%;
+	text-decoration: underline;
 }
 
 #resume_item{
@@ -208,7 +216,7 @@
 	border-radius: 10px;
 }
 
-#resume_footer_list {
+#resume_header_list {
 	padding-top: 5px;
 	line-height: 20px;
 	text-decoration: none;
@@ -219,19 +227,19 @@
 	list-style-type: none;
 }
 
-#resume_footer_list li {
+#resume_header_list li {
 	display: inline;
 }
 
-#resume_footer_list li a {
+#resume_header_list li a {
 	color: #fff;
 }
 
-#resume_footer_list li a:hover {
+#resume_header_list li a:hover {
 	color: #34495e;
 }
 
-#resume_footer_list a {
+#resume_header_list a {
 	text-decoration: none;
 	color: white;
 }
@@ -242,7 +250,7 @@
 	text-decoration: none;
 	color: #ffffff;
 	font-family: Verdana, sans-serif;
-	font-size: 18px;
+	font-size: 14px;
 	text-align: center;	
 	list-style-type: none;
 	font-weight: normal;

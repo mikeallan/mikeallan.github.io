@@ -18,23 +18,11 @@
 	<link href="../font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
 	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
 
 	<!-- jQuery -->
-  <script src="js/jquery.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
 
-	<script>
-		var height1 = $(".left_box_inside_right").height();
-		var height2 = $(".right_box_inside_right").height();
-		if(height1 > height2){
-			$(".left_box").height(height1);
-    	$(".right_box_inside_right").height(height1);
-  	}
-		else{
-    	$(".left_box_inside_right").height(height2);
-  		$(".left_box").height(height2);
-  	}
-  </script>
+  <script src="../js/jquery.js"></script>
 
 </head>
 
@@ -68,18 +56,48 @@
 	<!-- End of Navigation -->
 
 	<!-- Content -->
+
 	<div id="resume_header">
 		
 		<div class="left_resume_header">
 			<h2 id="name"><strong>Mike Allan</strong></h2>
-			<div class="hline_grey"></div>
-			<p id="bio">Ambitious and driven student enrolled at Western University, pursuing a dual degree in Mechatronic Systems Engineering and the Ivey Honours in Business Administration as a Loran Scholar. Takes a pragmatic approach to solving problems and able to adapt to new environments quickly. Passionate about music, sport, social justice, technology, business, and how the latter three can be amalgamated.</p>
+			
+			<div class="hline_grey" style="margin-bottom: 0px"></div>
+			
+			<ul id="resume_header_list">
+				<li style="margin-left: -50px">519-871-0253 &#8226; </li> 
+				<li> <li><button type="button"><a href="https://ca.linkedin.com/in/mikeallan1"> <img src="../img/linkedin_logo.png" style="height: 18px; width: auto"></a> &#8226; </button></li>
+				<li> <a href="mailto:mike@mikeallan.ca?Subject=Hello%20again">mike@mikeallan.ca</a></li>
+			</ul>
+			
+			<div class="hline_grey" style="margin-top: -7.5px;"></div>
+			
+			<p id="bio">Ambitious and driven student enrolled at Western University, pursuing a dual degree in Mechatronic Systems Engineering and the Ivey Honours in Business Administration as a Loran Scholar. Passionate about music, sport, social justice, technology, business, and how the latter three can be amalgamated.</p>
 		</div>
 		<div class="right_resume_header">
 			<img id="picture" src="../img/cansbridge_headshot.jpg"/>
 		</div>
 		
 	</div>
+
+	<!-- End of Resume Header -->
+
+			<script>
+		var height_left = $(".left_box_inside_right").height();
+		var height_right = $(".right_box_inside_right").height();
+	
+		if(height_left > height_right){
+			$(".left_box").height(height_left);
+    	$(".right_box_inside_right").height(height_left);
+  	}
+		else{
+    	$(".left_box").height(height_right);
+    	$(".left_box_inside_right").height(height_right);
+  	}
+  	}
+  </script>
+
+  <!-- Start of Resume content-->
 
 	<div class="left_box"></div>
 	
@@ -182,24 +200,31 @@
 				<li>2011-2013</li>
 			</ul>
 		</div>	
-	</div>
 
-	<!-- Footer -->
-
-	<div class="footer">
-		<ul id="resume_footer_list">
-			<li>260 Suffolk Place &#8226; </li>
-			<li>London, Ontario &#8226; </li>
-			<li> N6G 4S3 </li> 
+		<div class="left_box_inside_right">
 			<br>
-			<li> 519-871-0253 &#8226; </li> 
-			<li> <a href="mailto:mike@mikeallan.ca?Subject=Hello%20again">Email Me</a>  &#8226; </li>
-			<li><a href="https://ca.linkedin.com/in/mikeallan1">LinkedIn</a> &#8226; </li>
-			<li><a href="http://www.mikeallan.ca">Personal Website</a></li>
-			<br><br>
-			<li><a href="MichaelAllan.pdf" target="_blank">Download as a PDF</a></li>
-		</ul>
+			<a href="MichaelAllan.pdf" target="_blank" ><em>Download as a PDF</em></a>
+			<br>
+		</div>
 	</div>
+
+	
+
+  <!-- Footer -->
+  <div class="footer">
+      <ul id="footer_list">
+          <li><a href="../index.html">Home &#8226; </a></li>
+          <li><a href="about.html">About Me &#8226; </a></li>
+          <li><a href="resume.html">My Resume &#8226; </a></li>
+          <li><a href="blog.php">Blog &#8226; </a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <br><br>
+          <li><button type="button"><a href="https://ca.linkedin.com/in/mikeallan1"><img src="../img/linkedin_logo.png" style="height: 18px; width: auto"> LinkedIn</a></button></li>
+          <li><button type="button"><a href="https://www.facebook.com/mikie.allan"><img src="../img/fb_logo.png" style="height: 18px; width: auto"> Facebook</a></button></li>
+          <li><button type="button"><a href="https://www.twitter.com/mallan1224"><img src="../img/twitter_logo.png" style="height: 18px; width: auto"> Twitter</a></button></li>
+          <li><button type="button"><a href="https://www.instagram.com/mallan1224"><img src="../img/instagram_logo.png" style="height: 18px; width: auto"> Instagram</a></button></li>
+      </ul>
+  </div>
 
 	<!-- End of Footer -->
 
