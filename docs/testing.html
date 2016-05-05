@@ -20,9 +20,10 @@
 	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 
 	<!-- jQuery -->
+	<script src="../js/jquery.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
 
-  <script src="../js/jquery.js"></script>
+  
 
 </head>
 
@@ -82,7 +83,7 @@
 
 	<!-- End of Resume Header -->
 
-			<script>
+	<!--		<script>
 		var height_left = $(".left_box_inside_right").height();
 		var height_right = $(".right_box_inside_right").height();
 	
@@ -95,11 +96,17 @@
     	$(".left_box_inside_right").height(height_right);
   	}
   	}
-  </script>
+  </script> -->
 
   <!-- Start of Resume content-->
 
-	<div class="left_box"></div>
+	<div class="left_box">
+
+	<!-- 	This isn't working... not sure why-->
+		<script>
+			$(".left_box").height($(".right_box").height());
+ 	 </script>
+	</div> 
 	
 	<div class="right_box">
 
@@ -202,9 +209,7 @@
 		</div>	
 
 		<div class="left_box_inside_right">
-			<br>
 			<a href="MichaelAllan.pdf" target="_blank" ><em>Download as a PDF</em></a>
-			<br>
 		</div>
 	</div>
 
