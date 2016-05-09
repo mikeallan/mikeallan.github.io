@@ -3,69 +3,56 @@
     
     <head>
         
-        <meta charset="utf-8">
-            <meta http-equiv="X-UA-Compatible" content="IE=edge">
-                <meta name="viewport" content="width=device-width, initial-scale=1">
-                    <meta name="description" content="">
-                        <meta name="author" content="">
-                            
-                            <title>Mike Allan - Blog</title>
-                            
-                            <!-- Bootstrap Core CSS -->
-                            <link href="../css/bootstrap.min.css" rel="stylesheet">
-                                
-                                <!-- Custom CSS -->
-                                <link href="../css/landing-page.css" rel="stylesheet">
-                                    
-                                    <!-- Custom Fonts -->
-                                    <link href="../font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-                                        <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="../text/css">
-                                            
-                                            <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-                                            <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-                                            <!--[if lt IE 9]>
-                                             <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-                                             <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-                                             <![endif]-->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+        
+    <title>Mike Allan - Blog</title>
+    
+    <!-- Bootstrap Core CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+        
+    <!-- Custom CSS -->
+    <link href="../css/landing-page.css" rel="stylesheet">
+    
+    <!-- My Custom CSS -->
+    <link type="text/css" href="../css/mikie.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="../font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="../text/css">
                                             
     </head>
     
     <body>
         
-        <!-- Navigation -->
-        <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
-            <div class="container topnav">
-                <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                        <span class="sr-only">Toggle navigation</span>
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
+        <div class="container topnav">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand topnav" href="../index.html">Home</a>
-                </div>
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li>
-                            <a href="about.html">About Me</a>
-                        </li>
-                        <li>
-                            <a href="resume.html">My Resume</a>
-                        </li>
-                        <li>
-                            <a href="blog.php">Blog</a>
-                        </li>
-                        <li>
-                            <a href="contact.html">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-                <!-- /.navbar-collapse -->
-            </div>
-            <!-- /.container -->
-        </nav>
+        </button>
+        <a class="navbar-brand topnav" href="../index.html">Home</a>
+      </div>
+      <!-- Right hand side of Navbar  -->
+      <div class="collapse navbar-collapse">
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="about.html">About</a></li>
+            <li><a href="resume.html">My Resume</a></li>
+            <li><a href="blog.php">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        </div>
+    </div>
+    </nav>
+    <!-- End of Navigation -->
 
 <div class="container">
     
@@ -77,7 +64,17 @@
                 <hr class="intro-divider">
         </div>
 
-<!---------- Third Post ------------>
+<!--    Fourth Post    -->
+        <div class="clearfix"></div>
+        <h3 id="blog_header">First Week in Asia</h3>
+        <h5 id="blog_header"><i>May 9th, 2016</i></h5>
+        <br>
+
+        <p>THIRD BLOG POST HERE</p>
+
+        <hr class="intro-divider">
+
+<!--    Third Post     -->
 
 
     <div class="col-blog-1">
@@ -346,36 +343,20 @@
 </div>
 
 <!-- Footer -->
-<footer>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <ul class="list-inline">
-                    <li>
-                        <a href="../index.html">Home</a>
-                    </li>
-                    <li class="footer-menu-divider">&sdot;</li>
-                    <li>
-                        <a href="about.html">About Me</a>
-                    </li>
-                    <li class="footer-menu-divider">&sdot;</li>
-                    <li>
-                        <a href="resume.html">My Resume</a>
-                    </li>
-                    <li class="footer-menu-divider">&sdot;</li>
-                    <li>
-                        <a href="blog.php">Blog</a>
-                    </li>
-                    <li class="footer-menu-divider">&sdot;</li>
-                    <li>
-                        <a href="contact.html">Contact</a>
-                    </li>
-                </ul>
-                <p class="copyright text-muted small" style="text-align:center">Copyright &copy; Mike Allan 2015</p>
-            </div>
-        </div>
+    <div class="footer">
+        <ul id="footer_list">
+            <li><a href="../index.html">Home &#8226; </a></li>
+            <li><a href="about.html">About Me &#8226; </a></li>
+            <li><a href="resume.html">My Resume &#8226; </a></li>
+            <li><a href="blog.php">Blog &#8226; </a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <br><br>
+            <li><button type="button"><a href="https://ca.linkedin.com/in/mikeallan1"><img src="../img/linkedin_logo.png" style="height: 18px; width: auto"> LinkedIn</a></button></li>
+            <li><button type="button"><a href="https://www.facebook.com/mikie.allan"><img src="../img/fb_logo.png" style="height: 18px; width: auto"> Facebook</a></button></li>
+            <li><button type="button"><a href="https://www.twitter.com/mallan1224"><img src="../img/twitter_logo.png" style="height: 18px; width: auto"> Twitter</a></button></li>
+            <li><button type="button"><a href="https://www.instagram.com/mallan1224"><img src="../img/instagram_logo.png" style="height: 18px; width: auto"> Instagram</a></button></li>
+        </ul>
     </div>
-</footer>
 
 <!-- jQuery -->
 <script src="js/jquery.js"></script>

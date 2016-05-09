@@ -326,3 +326,58 @@ input[type=submit]:hover {
 input[type=text]:focus {
     border: 3px solid #555;
 }
+
+#general_header {
+	z-index: 1;
+	position: absolute;
+	width: 95%;
+	height: auto;
+	background-color: #2980b9;
+	margin-top: 30px;
+	margin-left: 2.5%;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	color: #fff;
+	padding-top: 10px;
+	text-align:center;
+}
+
+.left_about{
+	position: relative;
+	margin-top: 120px;
+	height: auto;
+	margin-left: 10%;
+	width: 37.5%;
+	float: left;
+	border-radius: 10px;
+	margin-bottom: 10px;
+	padding-left: 2%;
+	padding-right: 2%;
+	padding-bottom: 2px;
+}
+
+.right_about{
+	position: relative;
+	margin-top: 120px;
+	height: auto;
+	margin-left: 5%;
+	width: 37.5%;
+	float: left;
+	border-radius: 10px;
+	margin-bottom: 10px;
+	padding-left: 2%;
+	padding-right: 2%;
+	padding-bottom: 2%;
+}
+
+#blog_header {
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+#blog_body {
+  float: left;
+  margin-left: 20%;
+  margin-right: 20%;
+  position: relative;
+}	
