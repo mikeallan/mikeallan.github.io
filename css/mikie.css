@@ -42,7 +42,7 @@
 
 }
 
-#picture {
+#picture_circle {
 	border-radius: 100%;
 	height: 200px;
 	width: 200px;
@@ -68,6 +68,15 @@
 .hline_grey{
     height: 1px;
     width: 90%;
+    margin: auto;
+    content: "";
+    background: #7f8c8d;
+    margin-bottom: 10px;
+}
+
+.hline_grey_full{
+    height: 1px;
+    width: 100%;
     margin: auto;
     content: "";
     background: #7f8c8d;
@@ -329,7 +338,7 @@ input[type=text]:focus {
 
 #general_header {
 	z-index: 1;
-	position: absolute;
+	position: fixed;
 	width: 95%;
 	height: auto;
 	background-color: #2980b9;
@@ -370,14 +379,50 @@ input[type=text]:focus {
 	padding-bottom: 2%;
 }
 
-#blog_header {
+.blog {
+	margin-top: 120px;
 	margin-left: 15%;
 	margin-right: 15%;
 }
 
-#blog_body {
-  float: left;
-  margin-left: 20%;
-  margin-right: 20%;
-  position: relative;
-}	
+.blog_picture_1 {
+	position: relative;
+	height: auto;
+	margin-left: 5%;
+	width: auto;
+	float: left;
+	border-radius: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+	margin-top: 0px;
+}
+
+#picture_square {
+	height: 200px;
+	width: 200px;
+}
+
+#picture_rectangle {
+	height: 200px;
+	width: 400px;
+}
+
+.blog_picture_2 {
+	position: relative;
+	height: auto;
+	margin-left: 5%;
+	float: left;
+	border-radius: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.blog_picture_2 {
+	position: relative;
+	height: auto;
+	margin-left: 5%;
+	float: left;
+	border-radius: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+}
