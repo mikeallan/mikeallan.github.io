@@ -391,6 +391,11 @@ input[type=text]:focus {
 	width: 200px;
 }
 
+#picture_big_square {
+	height: 300px;
+	width: 300px;
+}
+
 #picture_rectangle {
 	height: 200px;
 	width: 300px;
