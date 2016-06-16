@@ -396,7 +396,7 @@ input[type=text]:focus {
 
 #picture_rectangle {
 	height: 200px;
-	width: 300px;
+	width: 275px;
 }
 
 #picture_vertical_rectangle {
@@ -412,24 +412,4 @@ input[type=text]:focus {
 #picture_big_vertical_rectangle {
 	height: 300px;
 	width: 225px;
-}
-
-.blog_picture_2 {
-	position: relative;
-	height: auto;
-	margin-left: 7.5%;
-	float: left;
-	border-radius: 10px;
-	margin-bottom: 10px;
-	text-align: center;
-}
-
-.blog_picture_3 {
-	position: relative;
-	height: auto;
-	margin-left: 7.5%;
-	float: left;
-	border-radius: 10px;
-	margin-bottom: 10px;
-	text-align: center;
 }
