@@ -202,12 +202,6 @@
 	margin-right: 10%;
 }
 
-#resume_list{
-	margin-left: 3%;
-	margin-top: -10px;
-	color: #2d2d2d;
-}
-
 #year_club_list{
 	list-style-type: none;
 	margin-top: -10px;
@@ -412,4 +406,22 @@ input[type=text]:focus {
 #picture_big_vertical_rectangle {
 	height: 300px;
 	width: 225px;
+}
+
+.travel_journal_list {
+	text-align: left;
+	margin-left: 10%;
+}
+
+.travel_right_header{
+	float: right;
+	margin-top: -20px;
+}
+
+.travel_right_header a{
+	color: #000;
+}
+
+.travel_right_header a:hover{
+	color: #34495e;
 }
