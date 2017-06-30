@@ -16,12 +16,14 @@
 	position: relative;
 	margin-top: 2.5%;
 	float: left;
+	margin-left: 5%;
 	width: 60%;
 }
 
 .right_resume_header {
 	float: right;
 	margin-top: 20px;
+	margin-right: 10%;
 }
 
 #name {
