@@ -1,7 +1,7 @@
 <?php
 
     $errors = '';
-    $myemail = 'mike@mikeallan.ca';
+    $myemail = 'mallan@fudthrough.ca';
     if(empty($_POST['name'])  ||
        empty($_POST['email']) ||
        empty($_POST['message']))
@@ -21,7 +21,7 @@
     if( empty($errors))
     {
     $to = $myemail;
-    $email_subject = "Contact from mikeallan.ca";
+    $email_subject = "Contact from mikieallan.ca";
     $email_body = "From: $name ($email_address)\n ".
     "Message: \n $message";
     $headers = "From: $myemail\n";
