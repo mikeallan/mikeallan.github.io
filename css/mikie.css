@@ -37,7 +37,7 @@
 	}
 }
 
-@media (max-width: 1005px) {
+@media (max-width: 1300px) {
 	.left_resume_header {
 	position: relative;
 	margin-top: 2.5%;
@@ -437,6 +437,10 @@ input[type=text]:focus {
 	margin-left: 10%;
 }
 
+.travel_journal_list li a {
+	color: #2980b9;
+}
+
 .travel_right_header{
 	float: right;
 	margin-top: -20px;
@@ -473,16 +477,47 @@ input[type=text]:focus {
 	margin-right: 15%;
 }
 
+.scotia_header_text p{
+	margin-left: -15%;
+}
+
 .img_size{	
 	width: 300px;
 	height: auto;
 	border-radius: 10px;
 }
 
+@media(max-width:1150px) {
+	.scotia_header_text{
+		margin-left: 0%;
+		width: 100%;
+		text-align: center;
+	}
+
+	.scotia_header_text p{
+		margin-left: 0%;
+		width: 100%;
+		text-align: center;
+	}
+
+	.img_size{
+		width: 0px;
+	}
+}
+
 .scotia_body {
 	padding-top: 20px; 
 	margin-left: 2.5%;
 	width: 95%;
+}
+
+.intro-text{
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+.left-text{
+
 }
 
 .footer_scotia{
@@ -506,14 +541,14 @@ input[type=text]:focus {
 	color: #ffffff;
 }
 
-#footer_list_scotia li {
+.footer_list_scotia li {
 	display: inline;
 }
 
-#footer_list_scotia li a {
+.footer_list_scotia li a {
 	color: #fff;
 }
 
-#footer_list_scotia li a:hover {
+.footer_list_scotia li a:hover {
 	color: #34495e;
 }
