@@ -14,6 +14,9 @@
 	<!-- My Custom CSS -->
 	<link type="text/css" href="../css/mikie.css" rel="stylesheet">
 
+	<!-- Lightbox CSS -->
+    <link rel="stylesheet" href="../lightbox/dist/css/lightbox.css" type="text/css" media="screen" />
+
 	<!-- Fonts -->
 	<link href="../font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
@@ -58,11 +61,20 @@
 	<div class="scotia_header">
 		<div class="scotia_header_text">
 			<h1>MIKIE ALLAN</h1>
-			<p>Mechatronic Engineering &#8226; Business &#8226; Innovation</p>
+			<p style="font-weight: normal">
+				&#8226; Western University<br>
+				&#8226; 226-376-6510<br>
+				&#8226; gallan4@uwo.ca<br>
+				&#8226; <a href="Michael-Allan-Resume.pdf" target="_blank" ><u>Resume</u>
+			</p>
 		</div>
 
 		<div class="scotia_header_image">
-			<img class="img_size" src="../img/scotia/bouzouki.jpg">
+
+			<a href="../img/scotia/bouzouki.jpg" data-lightbox="scotia" data-title="Playing the bouzouki, a traditional Irish instrument, at my sister's wedding in 2014." rel="lightbox">
+				<img class="header" src="../img/scotia/bouzouki.jpg">
+			</a>
+			
 		</div>
 	</div>
 
@@ -70,7 +82,29 @@
 
 	<div class="scotia_body">
 		<div class="intro-text">
-			<p>Well hello there! Welcome to my application page. I'm incredibly excited to be applying for the Associate Product Owner position. I created this webpage along with the rest of my website from scratch, with no preset templates or CSS, except for the landing page - that was bootstrapped... Anyways, let me tell you a bit about myself, what makes me excited about this position, and why I would be a great fit!</p>
+			<p><b>Well hello there!</b> Welcome to my page to accompany my application for the Associate Product Owner position at Scotiabank. I'm incredibly excited to be applying for this position. I created this webpage along with the rest of my website from scratch, with no preset templates or CSS, except for the landing page - that was bootstrapped... Anyways, let me tell you a bit about myself, what makes me excited about this position, and why I am a great fit!</p>
+		</div>
+
+		<div class="first-text">
+			<h4><em>"Why are you interested in this position?"</em></h4>
+			<p>It’s an exciting time to be in the financial sector. We are already seeing significant changes with how people interact with banks. With threats from powerful companies such as Amazon and Facebook, banks need to be innovating and rethinking how things have always be done to ensure success against these potential new entrants. That’s why Scotiabank’s Associate Product Owner position is so intriguing to me. I want to be a leader in this revolutionary change. I spoke with Eric Bujold (a current APO) about this position and what the team is trying to do, and it made me even more excited about this position.</p>
+		</div>
+
+		<div class="second-text">
+			<h4><em>"Wait, who are you again?"</em></h4>
+			<p>I am originally from Newfoundland, and even though I have been to 15 countries, it remains my favourite place in the world. I received the <a href="http://www.loranscholar.ca" target="_blank">Loran Scholarship</a> in 2013, and moved to Ontario to start school at Western University. I chose to pursue my interest in business, problem solving, and science, enrolling in the dual degree program of Engineering and Business. Ever since, I have been actively involved at school.
+			</p>
+		</div>
+
+		<div class="second-img-container">
+
+			
+			<a href="../img/scotia/iceberg.jpg" data-lightbox="scotia" data-title="Petty Harbour, with a view of an iceberg in the background." rel="lightbox">
+				<img class="left250" src="../img/scotia/iceberg.jpg">
+			</a>
+			<a href="../img/scotia/fort_amherst.jpg" data-lightbox="scotia" data-title="Fort Amherst, a Natoinal Historic Site of Canada, with a great view of the St. John's harbour." rel="lightbox">
+				<img class="right250" src="../img/scotia/fort_amherst.jpg">
+			</a>
 		</div>
 		
 	</div>
@@ -99,5 +133,8 @@
 	<!-- End of Footer -->
 
 	<div class="clearfix"></div>
+
+<!-- Lightbox JS-->
+<script src="../lightbox/dist/js/lightbox-plus-jquery.js"></script>
 
 </body>	
