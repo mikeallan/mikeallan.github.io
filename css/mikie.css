@@ -449,3 +449,71 @@ input[type=text]:focus {
 .travel_right_header a:hover{
 	color: #34495e;
 }
+
+.scotia_header {
+	padding-top: 70px;
+	padding-bottom: 20px;
+	background: #f70000;
+	margin-left: 2.5%;
+    width: 95%;
+    color: white;
+    font-family: HomepageBaukasten, sans-serif;
+    font-style: bold;
+    border-radius: 10px;
+    height: 260px;
+}
+
+.scotia_header_text{
+	display: inline-block;
+	margin-left: 25%;
+}
+
+.scotia_header_image{
+	float: right;
+	margin-right: 15%;
+}
+
+.img_size{	
+	width: 300px;
+	height: auto;
+	border-radius: 10px;
+}
+
+.scotia_body {
+	padding-top: 20px; 
+	margin-left: 2.5%;
+	width: 95%;
+}
+
+.footer_scotia{
+	background: #f70000;
+	padding-top: 10px;
+	margin-left: 2.5%;
+	height: 90px;
+	width: 95%;
+	border-radius: 10px;
+	text-align: center;
+}
+
+.footer_list_scotia{
+	font-family: HomepageBaukasten, sans-serif;
+	font-size: 14px;
+	list-style-type: none;
+	font-weight: normal;
+}
+
+.footer_list_scotia, a{
+	color: #ffffff;
+}
+
+#footer_list_scotia li {
+	display: inline;
+}
+
+#footer_list_scotia li a {
+	color: #fff;
+}
+
+#footer_list_scotia li a:hover {
+	color: #34495e;
+}
