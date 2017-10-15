@@ -851,6 +851,12 @@ img.closing-right{
 	}
 }
 
+@media (max-width: 1200px){
+	img.left8{
+		height: 200px;
+	}
+}
+
 @media (max-width: 1070px){
 	img.right3{
 		height: 0px;
@@ -868,12 +874,21 @@ img.closing-right{
 }
 
 @media (max-width: 1000px){
+	img.header{
+		height: 0px;
+	}
+	img.left6{
+		height: 150px;
+	}
 	img.middle7{
 		height: 0px;
 	}
 	img.right7{
 		margin-left: 8%;
 		height: 250px;
+	}
+	img.left8{
+		height: 150px;
 	}
 	
 }
