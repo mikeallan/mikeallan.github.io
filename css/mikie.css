@@ -458,8 +458,8 @@ input[type=text]:focus {
 	padding-top: 50px;
 	padding-bottom: 20px;
 	background: #f70000;
-	margin-left: 2.5%;
-    width: 95%;
+	margin-left: 10%;
+    width: 80%;
     color: white;
     font-family: HomepageBaukasten, sans-serif;
     font-weight: normal;
@@ -949,6 +949,10 @@ img.closing-right{
 	img.closing-right{
 		height: 100px;
 		margin-left: 10%
+	}
+
+	.second-text{
+		width: 80%;
 	}
 	.third-text{
 		width: 80%;
